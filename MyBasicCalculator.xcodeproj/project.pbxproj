@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4298F2285B8ED90018C36E /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4298F1285B8ED90018C36E /* CalculatorLogic.swift */; };
 		4D79B4AF2858FEF0000068EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79B4AE2858FEF0000068EA /* AppDelegate.swift */; };
 		4D79B4B12858FEF0000068EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79B4B02858FEF0000068EA /* SceneDelegate.swift */; };
 		4D79B4B32858FEF0000068EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79B4B22858FEF0000068EA /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D4298F1285B8ED90018C36E /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		4D79B4AB2858FEF0000068EA /* MyBasicCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBasicCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D79B4AE2858FEF0000068EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D79B4B02858FEF0000068EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D4298F0285B8E9B0018C36E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D4298F1285B8ED90018C36E /* CalculatorLogic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4D79B4A22858FEF0000068EA = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			children = (
 				4D79B4AE2858FEF0000068EA /* AppDelegate.swift */,
 				4D79B4B02858FEF0000068EA /* SceneDelegate.swift */,
+				4D4298F0285B8E9B0018C36E /* Models */,
 				4D79B4C32858FF58000068EA /* Controllers */,
 				4D79B4C22858FF4D000068EA /* Views */,
 				4D79B4B72858FEF5000068EA /* Assets.xcassets */,
@@ -154,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4298F2285B8ED90018C36E /* CalculatorLogic.swift in Sources */,
 				4D79B4B32858FEF0000068EA /* ViewController.swift in Sources */,
 				4D79B4AF2858FEF0000068EA /* AppDelegate.swift in Sources */,
 				4D79B4B12858FEF0000068EA /* SceneDelegate.swift in Sources */,
